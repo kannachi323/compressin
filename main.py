@@ -1,38 +1,32 @@
 import tkinter as tk
-from tkinter import messagebox, Menu
 from sys import platform
-from osx_config import *
-from win32_config import *
+from config import *
 from program import *
 
 
-
-def main(window):
-    window.title("Compressin!")
-    window.geometry("680x550")
-    bkg = tk.PhotoImage(file="images/background.png")
-    bkg_label = tk.Label(window, image=bkg)
+def main():
+    root = tk.Tk()
+    root.title("Compressin!")
+    root.geometry("680x550")
+    bkg = tk.PhotoImage(file="ipv6-compress-aggregation/images/background.png")
+    bkg_label = tk.Label(root, image=bkg)
     bkg_label.pack()
+    root.resizable(False, False)
+
 
     if platform == "darwin":
-        mac_placement(window)
+        osx_placement(root)
 
     elif platform == "win32":
-        win_placement(window)
+        win_placement(root)
 
-
-    window.resizable(False, False)
-    window.mainloop()
+    
+    
+    root.mainloop()
 
 
 if __name__ == '__main__':
-    #create main window
-    window = tk.Tk()
-
-    #call main function
-    main(window)
-
-
+    main()
 
 
 
