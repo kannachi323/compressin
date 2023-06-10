@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox, Menu
 from sys import platform
 from osx_config import *
+from win32_config import *
 from program import *
 
 
