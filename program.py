@@ -68,7 +68,7 @@ def route_aggregation_window(window):
     route.title("Route Aggregation")
     route.resizable(False, False)
     videoplayer = TkinterVideo(master=route, scaled=True)
-    videoplayer.load(r"ipv6-compress-aggregation/route_aggregation.mp4")
+    videoplayer.load(r"C:/Users/mtcco/Documents/ipv6-compress-aggregation/route_aggregation.mp4")
     videoplayer.pack(expand=True, fill="both")
     videoplayer.play()
     
