@@ -68,13 +68,13 @@ def ipv6_decompression_window(window):
         decompress_entry(ipv6_decompress)
 
 def route_aggregation_window(window):
-    path = os.path.join(get_os_path(), 'route_aggregation.mp4')
+    #path = os.path.join(get_os_path(), 'route_aggregation.mp4')
     route = tk.Toplevel(window)
     route.geometry("1024x768")
     route.title("Route Aggregation")
     route.resizable(False, False)
     videoplayer = TkinterVideo(master=route, scaled=True)
-    videoplayer.load(path)
+    videoplayer.load(r"route_aggregation.mp4")
     videoplayer.pack(expand=True, fill="both")
     videoplayer.play()
     
