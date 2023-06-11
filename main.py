@@ -17,13 +17,15 @@ def toggle_volume(volume_button):
         pygame.mixer.music.set_volume(0.2)
         volume_state = 1
         volume_button.config(text="Mute")
-    
 
 def main():
+    bkg_path = os.path.join(get_os_path(), 'background.png')
+    menu_music_path = os.path.join(get_os_path(), 'menu.mp3')
+
     root = tk.Tk()
     root.title("Compressin!")
     root.geometry("680x550")
-    bkg = tk.PhotoImage(file="C:/Users/mtcco/Documents/ipv6-compress-aggregation/background.png")
+    bkg = tk.PhotoImage(file=bkg_path)
     bkg_label = tk.Label(root, image=bkg)
     bkg_label.pack()
     root.resizable(False, False)
@@ -31,7 +33,7 @@ def main():
     global volume_state
     pygame.init()
     mixer.init()
-    mixer.music.load("C:/Users/mtcco/Documents/ipv6-compress-aggregation/menu.mp3")
+    mixer.music.load(menu_music_path)
     pygame.mixer.music.set_volume(0.2)
     volume_state = 1
     pygame.mixer.music.play(loops=-1)

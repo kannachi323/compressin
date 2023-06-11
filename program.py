@@ -2,10 +2,15 @@ import tkinter as tk
 import ipaddress
 from config import *
 from tkVideoPlayer import TkinterVideo
+import os
 
 window_for_compress = None
 window_for_decompress = None
 paused = False
+
+def get_os_path():
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    return current_directory
 
 def prevent_exit():
     pass
@@ -63,12 +68,13 @@ def ipv6_decompression_window(window):
         decompress_entry(ipv6_decompress)
 
 def route_aggregation_window(window):
+    path = os.path.join(get_os_path(), 'route_aggregation.mp4')
     route = tk.Toplevel(window)
     route.geometry("1024x768")
     route.title("Route Aggregation")
     route.resizable(False, False)
     videoplayer = TkinterVideo(master=route, scaled=True)
-    videoplayer.load(r"C:/Users/mtcco/Documents/ipv6-compress-aggregation/route_aggregation.mp4")
+    videoplayer.load(path)
     videoplayer.pack(expand=True, fill="both")
     videoplayer.play()
     
