@@ -1,6 +1,7 @@
 import tkinter as tk
 from program import *
 
+
 def osx_placement(window):
     #open ipv6 compression/route aggregation screen
     ipv6_compress = tk.Button(window, text="IPv6 Compression", width=16, height=8, borderwidth=1, command=lambda: ipv6_compression_window(window))
@@ -20,6 +21,7 @@ def win_placement(window):
     route = tk.Button(window, text="Route Aggregation", width=25, height=9, borderwidth=1, command=lambda: route_aggregation_window(window))
     route.place(x=240, y=364)
     
+
 
 
     
