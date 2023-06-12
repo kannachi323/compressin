@@ -25,7 +25,7 @@ def main():
     root = tk.Tk()
     root.title("Compressin!")
     root.geometry("680x550")
-    bkg = tk.PhotoImage(file="background.png")
+    bkg = tk.PhotoImage(file="dist/background.png")
     bkg_label = tk.Label(root, image=bkg)
     bkg_label.pack()
     root.resizable(False, False)
@@ -33,7 +33,7 @@ def main():
     global volume_state
     pygame.init()
     mixer.init()
-    mixer.music.load("menu.mp3")
+    mixer.music.load("dist/menu.mp3")
     pygame.mixer.music.set_volume(0.2)
     volume_state = 1
     pygame.mixer.music.play(loops=-1)
