@@ -87,10 +87,11 @@ def compress(window, entry, output):
         if validIPv6Address(address) and len(lines) <= 50:
             temp = address.replace(" ", '').split(":")
             temp = [c.lstrip('0') or '0' for c in temp if len(c) > 1]
-            index = temp.index("0")
-            while (temp[index] == "0"):
-                temp[temp.index("0")] = ''
-                index += 1
+            if "0" in temp:
+                index = temp.index("0")
+                while (temp[index] == "0"):
+                    temp[temp.index("0")] = ''
+                    index += 1
             lines[a] = ':'.join(temp)
             lines[a] = lines[a].replace(":::", "::")
             lines[a] = lines[a].replace("::::", "::")
