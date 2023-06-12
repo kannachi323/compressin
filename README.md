@@ -12,11 +12,10 @@ OR
 
 2. Download the [.zip](https://github.com/mtccool668/compressin/archive/refs/heads/main.zip) file
 
-##Tutorial
-1. Open your terminal and move into correct directory.
-Ex)
+## Tutorial
+1. Open your terminal and move into correct directory. For example, if you downloaded the .zip into your downloads, type:
 ```sh
-   cd <DIRECTORY of compressin>
+   cd /Downloads/compressin-main
    ```
  2. Start program
  ```sh
