@@ -14,7 +14,7 @@ OR
 
 OR
 
-3. Download Compressin!.exe (located in the /dist folder)
+3. Download Compressin!.exe (/dist/Compressin!.exe)
 
 ## Demo
 IPv6 Compression
