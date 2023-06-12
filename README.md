@@ -2,7 +2,7 @@
 # Compressin!
 
 ### Installation
-_-Compressin! is located in the /dist folder._
+_Compressin! is located in the /dist folder._
 
 1. Clone the repo (HTTPS)
    ```sh
@@ -12,9 +12,17 @@ OR
 
 2. Download the [.zip](https://github.com/mtccool668/compressin/archive/refs/heads/main.zip) file
 
-OR
-
-3. Download [Compressin!](https://github.com/mtccool668/compressin/raw/main/dist/Compression!.exe)
+##Tutorial
+1. Open your terminal and move into correct directory.
+Ex)
+```sh
+   cd /Downloads/compressin-main
+   ```
+ 2. Start program
+ ```sh
+   python3 main.py
+   ```
+ -If any module errors appear, please make sure to have all proper modules downloaded._
 
 ## Demo
 IPv6 Compression
