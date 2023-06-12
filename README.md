@@ -1,5 +1,8 @@
 
 # Compressin!
+### Updates
+"currently working on proper executables for OS X, Windows, and Linux. Program runs smoothly in main.py and can be run using the proper python interperter commands"
+-Matthew Chen, 6/11/23
 
 ### Installation
 _Compressin! is located in the /dist folder._
@@ -12,7 +15,7 @@ OR
 
 2. Download the [.zip](https://github.com/mtccool668/compressin/archive/refs/heads/main.zip) file
 
-## Tutorial
+### Tutorial
 1. Open your terminal and move into correct directory. For example, if you downloaded the .zip into your downloads, type:
 ```sh
    cd /Downloads/compressin-main
@@ -23,7 +26,7 @@ OR
    ```
  -If any module errors appear, please make sure to have all proper modules downloaded._
 
-## Demo
+### Demo
 IPv6 Compression
 
 ![](https://github.com/mtccool668/compressin/blob/main/compression_demo_1.gif)
@@ -34,7 +37,7 @@ IPv6 Decompression
 
 ![](https://github.com/mtccool668/compressin/blob/main/decompression_demo.gif)
 
-## FAQ
+### FAQ
 
 #### Do I have to download all the files or just the executable?
 
