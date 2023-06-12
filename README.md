@@ -4,9 +4,9 @@
 ### Installation
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Clone the repo
+1. Clone the repo (HTTPS)
    ```sh
-   git clone https://github.com/mtccool668/compression
+   git clone https://github.com/mtccool668/compressin.git
    ```
 OR
 
