@@ -16,7 +16,7 @@ OR
 1. Open your terminal and move into correct directory.
 Ex)
 ```sh
-   cd /Downloads/compressin-main
+   cd <DIRECTORY of compressin>
    ```
  2. Start program
  ```sh
