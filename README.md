@@ -10,11 +10,11 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 OR
 
-2. Download the .zip file
+2. Download the [.zip](https://github.com/mtccool668/compressin/archive/refs/heads/main.zip) file
 
 OR
 
-3. Download Compressin!.exe (/dist/Compressin!.exe)
+3. Download [Compressin!](https://github.com/mtccool668/compressin/blob/main/dist/Compression!.exe)
 
 ## Demo
 IPv6 Compression
