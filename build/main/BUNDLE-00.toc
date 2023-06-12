@@ -1,0 +1,3 @@
+([('main',
+   '/Users/mtccool668/Documents/CSE151/ipv6-compress-aggregation/dist/main',
+   'EXECUTABLE')],)
