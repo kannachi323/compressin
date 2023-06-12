@@ -14,7 +14,7 @@ OR
 
 OR
 
-3. Download [Compressin!](https://github.com/mtccool668/compressin/blob/main/dist/Compression!.exe)
+3. Download [Compressin!](https://github.com/mtccool668/compressin/raw/main/dist/Compression!.exe)
 
 ## Demo
 IPv6 Compression
